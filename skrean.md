@@ -34,4 +34,13 @@ The `sklearn.feature_extraction` module can be used to extract features in a for
 - Patch extraction
 - Connectivity graph of an image
 
-
+# sklearn.metrics
+## Model selection interface
+## Classification metrics
+## Regression metrics
+## Multilabel ranking metrics
+## Clustering metrics
+## Biclustering metrics
+## Distance metrics
+## Pairwise metrics
+## Plotting
