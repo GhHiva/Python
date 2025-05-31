@@ -1,5 +1,19 @@
 # Feature Extraction:
-The sklearn.feature_extraction module can be used to extract features in a format supported by machine learning algorithms from datasets consisting of formats such as text and image.
+The `sklearn.feature_extraction` module can be used to extract features in a format supported by machine learning algorithms from datasets consisting of formats such as text and image.
+**Feature extraction from raw data**:
+- DictVectorizer
+- FeatureHasher
+**From images**:
+- image.PatchExtractor
+- image.extract_patches_2d
+- image.grid_to_graph
+- image.img_to_graph
+- image.reconstruct_from_patches_2d
+**From text**:
+- text.CountVectorizer
+- text.HashingVectorizer
+- text.TfidfTransformer
+- text.TfidfVectorizer
 ## Loading features from dicts
 ## Feature hashing
 ## Text feature extraction
