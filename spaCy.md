@@ -18,7 +18,9 @@ spaCy has several pretrained language models which differ by:
 
 **How to download a model:** `python -m spacy download en_core_web_md`
 
-**Use in Python:**     import spacy
+**Use in Python:**     
 
-                      `nlp = spacy.load("en_core_web_md")`
+import spacy
+
+`nlp = spacy.load("en_core_web_md")`
 
