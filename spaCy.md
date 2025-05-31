@@ -14,5 +14,13 @@ spaCy has several pretrained language models which differ by:
 | `en_core_web_lg`  | Large       | ✔ All components + **large word vectors**          | 🐢 Slower   | ✅ High                  |
 | `en_core_web_trf` | Transformer | Uses **BERT-like transformer** (e.g., RoBERTa)     | 🧠 Slowest  | 💎 Highest accuracy     |
 
-**How to See All Available Models:** python -m spacy validate
-**How to download a model:** python -m spacy download en_core_web_md
+**How to See All Available Models:** `python -m spacy validate`
+
+**How to download a model:** `python -m spacy download en_core_web_md`
+
+**Use in Python:**
+
+import spacy
+
+`nlp = spacy.load("en_core_web_md")`
+
