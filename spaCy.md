@@ -24,3 +24,8 @@ import spacy
 
 `nlp = spacy.load("en_core_web_md")`
 
+
+### spaCy attributes:
+- `.is_stop`: Returns True if the token is a stop word (like "a", "and", "the", "in", etc.)
+- `.is_punct`: Returns True if the token is punctuation (e.g., ., ,, !, :)
+- `.lemma_`: Gives the base form (lemma) of the word. (Example: “running” → “run”, “mice” → “mouse”)
