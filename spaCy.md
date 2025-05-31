@@ -29,3 +29,9 @@ import spacy
 - `.is_stop`: Returns True if the token is a stop word (like "a", "and", "the", "in", etc.)
 - `.is_punct`: Returns True if the token is punctuation (e.g., ., ,, !, :)
 - `.lemma_`: Gives the base form (lemma) of the word. (Example: “running” → “run”, “mice” → “mouse”)
+- `.text`: Original word/token text. ('dog')
+- `.pos_`: Part of speech.(noun,verb,...)
+- `.is_alpha`	True if token is alphabetic	
+- `.is_digit`	True if token is a number	
+- `.is_space`	True if token is whitespace	
+- `.like_num`	True if token resembles a number.	(True for "twenty", "15")
