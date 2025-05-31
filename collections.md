@@ -12,4 +12,4 @@ The Counter class from Python's collections module is used to count the occurren
 | `elements()`         | Returns an iterator over elements (repeats them) |                                               |
 | `update(iterable)`   | Adds counts from another iterable or mapping     |                                               |
 | `subtract(iterable)` | Subtracts counts (can result in negative values) |                                               |
-| `+`, `-`, `&`, \`    | \`                                               | Math operations: combine, subtract, intersect |
+| `+`, `-`, `&`, \`    | Math operations: combine, subtract, intersect                                             ||
